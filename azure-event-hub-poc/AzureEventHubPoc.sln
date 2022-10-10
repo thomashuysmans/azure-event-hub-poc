@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubExperiment", "EventHubExperiment\EventHubExperiment.csproj", "{60DCF0C8-5818-4C27-88AD-4C5102FF066B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubSender", "EventHubExperiment\EventHubSender.csproj", "{60DCF0C8-5818-4C27-88AD-4C5102FF066B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventHubReceiver", "EventHubReceiver\EventHubReceiver.csproj", "{CF95F07D-4B7D-4B39-8F5F-928AEC42A328}"
 EndProject
