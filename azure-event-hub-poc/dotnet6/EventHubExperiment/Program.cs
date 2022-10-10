@@ -10,8 +10,8 @@ using Azure.Messaging.EventHubs.Producer;
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-var connectionString = "Endpoint=sb://kaizenit.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=4+FxOvzDqdv5giZtXa8qCYbKHWtBcvleCfh8urEogXk=";
-var eventHubName = "myfirsteventhub";
+var connectionString = "";
+var eventHubName = "";
 var numOfEvents = 100;
 
 do

@@ -9,10 +9,10 @@ using Azure.Messaging.EventHubs.Processor;
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-var ehubNamespaceConnectionString = "Endpoint=sb://kaizenit.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=4+FxOvzDqdv5giZtXa8qCYbKHWtBcvleCfh8urEogXk=";
-var eventHubName = "myfirsteventhub";
-var blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=kaizenitstorage;AccountKey=N/0hcL0SAZVCmPWoTWC/tYDmM7Da8sQ55qN4vI+QDDyUGwecl1Ff9qUFhm/sSQtqOtKBamF/oILe2uoXsIefZA==;EndpointSuffix=core.windows.net";
-var blobContainerName = "eventhubcontainer";
+var ehubNamespaceConnectionString = "";
+var eventHubName = "";
+var blobStorageConnectionString = "";
+var blobContainerName = "";
 
 var consumerGroup = EventHubConsumerClient.DefaultConsumerGroupName;
 var storageClient = new BlobContainerClient(blobStorageConnectionString, blobContainerName);

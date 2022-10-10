@@ -13,10 +13,10 @@ namespace EventHubReceiverPoc
         {
             Console.WriteLine("Start the application:");
 
-            var eventHubConnectionString = "Endpoint=sb://kaizenit.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=4+FxOvzDqdv5giZtXa8qCYbKHWtBcvleCfh8urEogXk="; ;
-            var eventHubName = "myfirsteventhub";
-            var consumerGroupName = "$Default";
-            var blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=kaizenitstorage;AccountKey=N/0hcL0SAZVCmPWoTWC/tYDmM7Da8sQ55qN4vI+QDDyUGwecl1Ff9qUFhm/sSQtqOtKBamF/oILe2uoXsIefZA==;EndpointSuffix=core.windows.net";
+            var eventHubConnectionString = ""; 
+            var eventHubName = "";
+            var consumerGroupName = "";
+            var blobStorageConnectionString = "";
 
             var eventProcessorHost = new EventProcessorHost(eventHubPath:eventHubName, 
                 consumerGroupName:consumerGroupName, eventHubConnectionString: eventHubConnectionString, storageConnectionString: blobStorageConnectionString);
